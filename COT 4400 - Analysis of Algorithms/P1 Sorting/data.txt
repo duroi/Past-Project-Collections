@@ -1,0 +1,19 @@
+Three arguments
+
+first
+- size of input array
+- 1 to 1,000,000,000
+
+second
+- sorting algorithm
+- SelectionSort, InsertionSort, MergeSort, and QuickSort
+- s, i, m, q
+
+third
+- type of input
+- sorted, random, and constant
+- s, r, c 
+
+data.txt
+
+C:\Users\duroi\Documents\USF\Fall 2021\Sorting\data.txt

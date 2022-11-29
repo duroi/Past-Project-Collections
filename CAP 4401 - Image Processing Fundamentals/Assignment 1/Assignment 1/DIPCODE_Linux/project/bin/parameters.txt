@@ -1,0 +1,6 @@
+dogFace.pgm dogFace_bi75.pgm 3 50 110 200 200 binarize 75 220 200 100 130 add 50 0 0 100 100 binarize 75
+dogFace.pgm dogFace_regSmooth.pgm 3 50 110 200 200 reg2dsmooth 5 220 200 100 130 reg2dsmooth 5 0 0 100 100 reg2dsmooth 5
+dogFace.pgm dogFace_sepSmooth.pgm 3 50 110 200 200 sep2dsmooth 5 220 200 100 130 sep2dsmooth 5 0 0 100 100 sep2dsmooth 5
+dogYard.ppm dogYard_cb.ppm 3 300 250 160 220 colorbright 0 0 2 0 0 400 100 colorbright 2 2 0 0 0 100 300 colorbright 3 1 3
+proboscisSit.pgm proboscisSit_cv.ppm 3 0 0 200 200 colorvisual 75 10 350 200 200 200 colorvisual 75 10 20 500 300 80 colorvisual 75 10
+proboscisTree.pgm proboscisTree_overlap.pgm 3 0 400 200 150 reg2dsmooth 5 400 100 300 100 reg2dsmooth 5 500 100 100 300 binarize 75

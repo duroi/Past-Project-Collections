@@ -1,0 +1,10 @@
+mountains.pgm mountains1.pgm 1 0 0 408 612 histostretch 0 255
+castle.pgm castle1.pgm 1 0 0 564 533 histostretch 20 235
+castle.pgm castle2.pgm 1 0 0 564 533 althistostretch 20 235
+castle.pgm castle_hs3roi.pgm 3 0 0 300 200 histostretch 0 200 0 200 300 333 histostretch 0 150 300 0 264 533 histostretch 20 255
+slope.pgm slope_HSTB.pgm 1 50 50 434 700 histothres 50 B 0 255
+slope.pgm slope_HSTF.pgm 1 50 50 434 700 histothres 250 F 0 75
+globe.ppm globe_3roi.ppm 3 50 50 400 100 colorstretch R 125 200 300 300 150 150 colorstretch G 50 200 100 200 300 300 colorstretch B 50 200
+redlight.ppm redlight_r.ppm 1 0 0 3024 3024 colorstretch R 100 255
+redlight_r.ppm redlight_rb.ppm 1 0 0 3024 3024 colorstretch B 150 255
+redlight_rb.ppm redlight_rbg.ppm 1 0 0 3024 3024 colorstretch G 150 255

@@ -1,0 +1,20 @@
+mountains.pgm mountains_HS.pgm histostretch 
+slope.jpg slope_CVHS.jpg opencv 1 0 0 800 534 histostretchcv
+slope.jpg slope_CVHE.jpg opencv 1 0 0 800 534 histoequalcv
+rock.jpg rock_HEsobel.jpg opencv 1 0 0 1200 800 hesobel
+rock.jpg rock_HEcanny.jpg opencv 1 0 0 1200 800 hecanny
+fence.jpg fence_HEsobel.jpg opencv 1 0 0 1200 800 hesobel
+fence.jpg fence_HEcanny.jpg opencv 1 0 0 1200 800 hecanny
+rock.jpg rock_sobel.jpg opencv 1 0 0 1200 800 sobelcv
+rock.jpg rock_canny.jpg opencv 1 0 0 1200 800 cannycv
+fence.jpg fence_sobel.jpg opencv 1 0 0 1200 800 sobelcv
+fence.jpg fence_canny.jpg opencv 1 0 0 1200 800 cannycv
+circles.jpg circles_HT.jpg opencv 1 0 0 512 512 houghtrans
+ball.jpg ball_HT.jpg opencv 1 0 0 1200 900 houghtrans
+ball2.jpg ball2_HT.jpg opencv 1 0 0 964 311 houghtrans
+tree.jpg tree_sobeldiff.jpg opencv 1 0 0 1024 572 hesobeldiff
+rock.jpg rock_sobeldiff.jpg opencv 1 0 0 1200 800 hesobeldiff
+fence.jpg fence_sobeldiff.jpg opencv 1 0 0 1200 800 hesobeldiff
+tree.jpg tree_cannydiff.jpg opencv 1 0 0 1024 572 hecannydiff
+rock.jpg rock_cannydiff.jpg opencv 1 0 0 1200 800 hecannydiff
+fence.jpg fence_cannydiff.jpg opencv 1 0 0 1200 800 hecannydiff

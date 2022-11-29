@@ -1,0 +1,9 @@
+baboon.pgm baboon_bi125.pgm 3 10 10 200 200 binarize 125 300 25 200 300 binarize 125 400 400 100 100 add 125
+flowers.ppm flowers_bi125.ppm 3 10 10 200 200 binarize 125 300 25 200 300 binarize 125 300 300 75 75 add 125
+flowers.ppm flowers_CB.ppm 3 10 10 200 200 colorbright 1 2 1 300 25 200 300 colorbright 2 1 1 300 300 75 75 colorbright 0 1 2
+baboon.pgm baboon_CV.ppm 2 0 0 100 200 colorvisual 64 10 300 300 100 100 colorvisual 100 10
+baboon.pgm baboon_Smooth.pgm 3 10 10 200 200 reg2dsmooth 5 300 25 200 300 reg2dsmooth 5 400 400 100 100 reg2dsmooth 11
+baboon.pgm baboon_Smooth2.pgm 3 10 10 200 200 sep2dsmooth 5 300 25 200 300 sep2dsmooth 5 400 400 100 100 sep2dsmooth 11
+baboon.pgm baboonAdd.ppm 2 0 0 100 200 add 100 300 300 100 100 add 100
+baboon.pgm baboonBinOverlap.pgm 3 0 0 100 200 binarize 64 300 300 100 100 binarize 10 0 0 500 500 binarize 100
+baboon.pgm baboonBinSmOverlap.pgm 3 10 10 200 200 reg2dsmooth 51 300 300 100 100 binarize 10 0 0 500 500 binarize 100
